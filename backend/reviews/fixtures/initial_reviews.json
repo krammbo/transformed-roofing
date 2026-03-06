@@ -1,0 +1,59 @@
+[
+  {
+    "model": "reviews.review",
+    "pk": 1,
+    "fields": {
+      "reviewer_name": "Mike Thompson",
+      "location_label": "Statesville, NC",
+      "body": "Transformed Roofing did an outstanding job replacing our roof after storm damage. The crew was professional, cleaned up every day, and finished ahead of schedule. Highly recommend to anyone in the Statesville area.",
+      "rating": 5,
+      "source": "google",
+      "source_url": "",
+      "project_type": "Full Roof Replacement",
+      "is_featured": true,
+      "is_active": true,
+      "display_order": 1,
+      "review_date": "2024-09-12",
+      "created_at": "2024-09-12T12:00:00Z",
+      "updated_at": "2024-09-12T12:00:00Z"
+    }
+  },
+  {
+    "model": "reviews.review",
+    "pk": 2,
+    "fields": {
+      "reviewer_name": "Sandra Pearce",
+      "location_label": "Mooresville, NC",
+      "body": "We had a leak that two other companies couldn't track down. Transformed Roofing found it the same day and had it fixed by the next morning. Fair pricing and great communication throughout.",
+      "rating": 5,
+      "source": "google",
+      "source_url": "",
+      "project_type": "Roof Repair",
+      "is_featured": true,
+      "is_active": true,
+      "display_order": 2,
+      "review_date": "2024-11-03",
+      "created_at": "2024-11-03T12:00:00Z",
+      "updated_at": "2024-11-03T12:00:00Z"
+    }
+  },
+  {
+    "model": "reviews.review",
+    "pk": 3,
+    "fields": {
+      "reviewer_name": "James & Carol Whitfield",
+      "location_label": "Davidson, NC",
+      "body": "From the free estimate to the final walkthrough, everything was smooth. The new architectural shingles look fantastic and the price was very competitive. Will definitely use them again for our rental property.",
+      "rating": 5,
+      "source": "google",
+      "source_url": "",
+      "project_type": "Full Roof Replacement",
+      "is_featured": false,
+      "is_active": true,
+      "display_order": 3,
+      "review_date": "2025-01-18",
+      "created_at": "2025-01-18T12:00:00Z",
+      "updated_at": "2025-01-18T12:00:00Z"
+    }
+  }
+]
