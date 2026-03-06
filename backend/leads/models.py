@@ -30,3 +30,15 @@ class Lead(models.Model):
 
     def __str__(self):
         return f"{self.name} — {self.city}, {self.state} ({self.created_at:%Y-%m-%d})"
+
+
+class NotificationEmail(models.Model):
+    email = models.EmailField(unique=True)
+    is_active = models.BooleanField(default=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ["email"]
+
+    def __str__(self):
+        return self.email
