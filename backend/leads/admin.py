@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Lead
+from .models import Lead, NotificationEmail
 
 
 @admin.register(Lead)
@@ -48,3 +48,10 @@ class LeadAdmin(admin.ModelAdmin):
     @admin.display(description="Message?", boolean=True)
     def has_message(self, obj):
         return bool(obj.message)
+
+
+@admin.register(NotificationEmail)
+class NotificationEmailAdmin(admin.ModelAdmin):
+    list_display = ("email", "is_active", "created_at")
+    list_editable = ("is_active",)
+    readonly_fields = ("created_at",)
